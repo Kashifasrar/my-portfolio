@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Kashif Asraar - Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background for entire website -->
+    <div class="animated-background">
+        <div class="stars"></div>
+        <div class="nebula nebula-1"></div>
+        <div class="nebula nebula-2"></div>
+        <div class="nebula nebula-3"></div>
+        <div class="nebula nebula-4"></div>
+        <div class="floating-particles">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+            <div class="particle particle-6"></div>
+        </div>
+    </div>
+
+    <!-- Loading Animation -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section id="home" class="header-section">
+        <div class="header-content">
+            <h1 class="typing-text">Hi, I'm Mohamed Kashif Asraar</h1>
+            <h2 class="subtitle typing-subtitle">Entry Level IT professional</h2>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-image">
+                <img src="kashif.jpg" alt="Mohamed Kashif Asraar" class="profile-photo">
+            </div>
+            <div class="about-content">
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Master of Computer Applications</h4>
+                        <p class="duration">Aug 2023 – May 2025</p>
+                        <p class="institution">Dr. M.G.R Educational and Research Institute</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <p class="duration">Jun 2020 – Apr 2023</p>
+                        <p class="institution">Sacred Heart College</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-description">
+                <p>"I seek an entry-level role in a reputed organization to apply my skills, grow professionally, and
+                    contribute to the IT field using my education and technical knowledge while fulfilling my
+                    responsibilities with dedication"</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-skill="HTML">
+                    <i class="fab fa-html5"></i>
+                    <span class="skill-name">HTML</span>
+                </div>
+                <div class="skill-item" data-skill="CSS">
+                    <i class="fab fa-css3-alt"></i>
+                    <span class="skill-name">CSS</span>
+                </div>
+                <div class="skill-item" data-skill="JavaScript">
+                    <i class="fab fa-js-square"></i>
+                    <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill-item" data-skill="Python">
+                    <i class="fab fa-python"></i>
+                    <span class="skill-name">Python</span>
+                </div>
+                <div class="skill-item" data-skill="Java">
+                    <i class="fab fa-java"></i>
+                    <span class="skill-name">Java</span>
+                </div>
+                <div class="skill-item" data-skill="C++">
+                    <i class="fas fa-code"></i>
+                    <span class="skill-name">C++</span>
+                </div>
+                <div class="skill-item" data-skill="React">
+                    <i class="fab fa-react"></i>
+                    <span class="skill-name">React</span>
+                </div>
+                <div class="skill-item" data-skill="Node.js">
+                    <i class="fab fa-node-js"></i>
+                    <span class="skill-name">Node.js</span>
+                </div>
+                <div class="skill-item" data-skill="MySQL">
+                    <i class="fas fa-database"></i>
+                    <span class="skill-name">MySQL</span>
+                </div>
+                <div class="skill-item" data-skill="DBMS">
+                    <i class="fas fa-server"></i>
+                    <span class="skill-name">DBMS</span>
+                </div>
+                <div class="skill-item" data-skill="Git">
+                    <i class="fab fa-git-alt"></i>
+                    <span class="skill-name">Git</span>
+                </div>
+                <div class="skill-item" data-skill="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span class="skill-name">GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-carousel">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.</p>
+                        <button class="project-btn">View Project</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A responsive task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                        <button class="project-btn">View Project</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>An interactive dashboard for data visualization with customizable charts, real-time updates, and export functionality.</p>
+                        <button class="project-btn">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-date">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Sept 2024 – Oct 2024</span>
+                        </div>
+                        <div class="experience-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>OctaNet Services Pvt Ltd</span>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Intern — Web Development</h3>
+                        <div class="experience-description">
+                            <p>Utilized front-end and back-end technologies to enhance user experience and functionality.</p>
+                            <p>Focused on responsive design, performance optimization, and code debugging.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <p class="contact-text">"I'm always interested in new opportunities. Feel free to reach out if you'd like to work together!"</p>
+                <div class="social-icons">
+                    <a href="mailto:kashuasrari@gmail.com" class="social-icon" data-tooltip="Email Me">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/Kashifasrar" target="_blank" class="social-icon" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kash-azrar-567760267" target="_blank" class="social-icon" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/9025012002" target="_blank" class="social-icon" data-tooltip="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/kaashazrar234" target="_blank" class="social-icon" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" data-tooltip="Tamilnadu, India">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Buttons -->
+    <section class="action-buttons">
+        <div class="container">
+            <div class="button-group">
+                <button class="action-btn download-btn" onclick="downloadResume()">
+                    <i class="fas fa-download"></i>
+                    <span>Download Resume</span>
+                </button>
+                <button class="action-btn back-to-top-btn" onclick="scrollToTop()">
+                    <i class="fas fa-arrow-up"></i>
+                    <span>Back to Top</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohamed Kashif Asraar | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
