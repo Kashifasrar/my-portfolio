@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.downloadResume = function() {
         // Use the actual resume filename
-        const resumeUrl = 'kashif-resume.pdf';
+        const resumeUrl = 'mohamed_resume.pdf';
         
         // Create a temporary link element
         const link = document.createElement('a');
